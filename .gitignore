@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Training outputs and downloaded data are reproducible and should stay local.
+artifacts/*
+!artifacts/.gitkeep
+data/*
+!data/.gitkeep
+
